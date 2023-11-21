@@ -1,0 +1,2 @@
+#!bin/bash
+yarn migration:generate "src/migrations/$1"

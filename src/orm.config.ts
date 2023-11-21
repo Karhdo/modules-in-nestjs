@@ -20,5 +20,4 @@ export default new DataSource({
   database: configService.get('POSTGRES_DB'),
   entities: [UserEntity],
   migrations: [join(__dirname, 'migrations', '*.{js,ts}')],
-  migrationsTableName: 'migrations',
 });
